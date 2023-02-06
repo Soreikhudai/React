@@ -1,20 +1,21 @@
-
-function ExpenseItem() {
+import './ExpenseItem.css'
+function ExpenseItem(props) {
+   
     return (
-        <div>
-            <h2> just hard code for now</h2>
+        <div className="expense-item">
             <div>
-                <div>Food</div>
-                <div>Rs 10</div>
+                <div className="expense-date">{props.date.toISOString()}</div>
             </div>
             <div>
-                <div>Petrol</div>
-                <div>RS 100</div>
+                <div className="expense-title">{props.title}</div>
             </div>
             <div>
-                <div>Movies</div>
-                <div>RS 200</div>
+                <div className="expense-location">{props.location}</div>
             </div>
+            <div>
+                <div className="expense-amount">${props.amount}</div>
+            </div>
+
         </div>
     )
 }
