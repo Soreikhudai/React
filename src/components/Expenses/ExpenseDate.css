@@ -1,0 +1,17 @@
+.date {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 0px 10px;
+    border-radius: 10px; margin: 1rem 0;
+    
+}
+.ex-month{
+    font-weight: bolder;
+}
+.ex-day {
+    font-weight: bolder;
+}
+.ex-year{
+    font-weight: bolder;
+}
