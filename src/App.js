@@ -4,7 +4,7 @@ const App = () =>{
   const expenses = [
     {
       date: new Date(2021, 0, 7),
-      title: "car insurance",
+      title: "Insurance",
       amount: "256"
     },
     {
