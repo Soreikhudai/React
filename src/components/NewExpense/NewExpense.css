@@ -1,9 +1,19 @@
 .new-expense {
-        padding: 1rem;
-        background-color:rgb(150, 78, 218);
-        margin: 2rem auto;
-        width: 34.5rem;
-        max-width: 95%;
-        border-radius: 12px;
-        box-shadow: 0 1px 8px rgb(149, 144, 144);
-    }
+    padding: 1rem;
+    background-color: rgb(150, 78, 218);
+    margin: 2rem auto;
+    width: 34.5rem;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgb(149, 144, 144);
+    margin-bottom: 1rem;
+}
+
+.editBtn {
+    background-color: rgb(53, 8, 99);
+    padding: 10px 7px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 7px;
+    border-style: none;
+}
